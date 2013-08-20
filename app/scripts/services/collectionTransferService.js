@@ -12,10 +12,8 @@ angular.module('yojimboApp').factory('collectionTransferService', function () {
 		},
 		transferItemToCollection : function(item, targetName) {
 			var fromCollection = this._getCollectionByItem(item);
-			console.log(fromCollection);
 			fromCollection.remove(item);
 			var toCollection = this._getCollectionByName(targetName);
-			console.log(toCollection);
 			toCollection.add(item);
 			//TODO messaging?
 		},

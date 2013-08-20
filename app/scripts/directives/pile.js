@@ -11,7 +11,6 @@ angular.module('yojimboApp').directive('yojPile', function(collectionTransferSer
         link: function($scope){
             $scope.$watch('yojItemCollection', function(newValue) {
                 if (newValue) {
-                    $scope.yojItemCollection = newValue;
                     $scope.items = newValue.items;
                 }
             }, true);

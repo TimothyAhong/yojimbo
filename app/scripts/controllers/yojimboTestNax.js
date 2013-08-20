@@ -23,17 +23,6 @@ angular.module('yojimboTest').controller('yojimboTestCtrl', function ($scope, it
         availableCollections : ['board','deck','hand','extras','graveyard','eventDeck'],
     }
 
-    $scope.counterItemSettings = {
-        inputs : [
-            {displayValueOnItem: true, displayValueOnItemClass: 'counter-number', modelProperty: 'value'}
-        ],
-        displayMoveToCollectionButton : true,
-        displayMoveUpButton : true,
-        displayMoveDownButton : true,
-        draggable : true,
-        availableCollections : ['boardCounters','graveyard']
-    }
-
     $scope.deckSettings = {
         displayNumberOfItems : true,
         canShuffle : true
@@ -49,24 +38,22 @@ angular.module('yojimboTest').controller('yojimboTestCtrl', function ($scope, it
     //eventDeck
     $scope.eventDeck = itemCollectionFactory.create();
     $scope.eventDeck.setName('eventDeck');
+    //kEventDeck
+    $scope.kEventDeck = itemCollectionFactory.create();
+    $scope.kEventDeck.setName('kEventDeck');
     //graveyard
     $scope.graveyard = itemCollectionFactory.create();
     $scope.graveyard.setName('graveyard');
     //private hand
     $scope.hand = itemCollectionFactory.create();
     $scope.hand.setName('hand');
-    //whelps
-    $scope.whelps = itemCollectionFactory.create();
-    $scope.whelps.setName('whelps');
-    //onyxias
-    $scope.onyxiaStages = itemCollectionFactory.create();
-    $scope.onyxiaStages.setName('onyxiaStages');
-    //counters
-    $scope.counters = itemCollectionFactory.create();
-    $scope.counters.setName('counters');
-    //counters on the board
-    $scope.boardCounters = itemCollectionFactory.create();
-    $scope.boardCounters.setName('boardCounters');
+
+    //quarters
+    $scope.quarterDeck = itemCollectionFactory.create();
+    $scope.quarterDeck.setName('quarterDeck');
+    //bosses
+    $scope.bosses = itemCollectionFactory.create();
+    $scope.bosses.setName('bosses');
 
     //general tray
     $scope.extras = itemCollectionFactory.create();
@@ -124,48 +111,45 @@ angular.module('yojimboTest').controller('yojimboTestCtrl', function ($scope, it
     });
 
     var eventCards = [
-        'wowtcg-battle-plan',
-        'wowtcg-blunder-into-the-eggs',
-        'wowtcg-break-in-the-action',
-        'wowtcg-broken-ranks',
-        'wowtcg-burn-to-a-crisp',
-        'wowtcg-charred-bones',
-        'wowtcg-chink-in-her-armor',
-        'wowtcg-claw-claw-bite',
-        'wowtcg-down-the-gullet',
-        'wowtcg-dragonslayers',
-        'wowtcg-feeding-time',
-        'wowtcg-fickle-fate',
-        'wowtcg-fuel-for-the-fire',
-        'wowtcg-growing-rage',
-        'wowtcg-he-who-hesitates',
-        'wowtcg-hidden-reserves',
-        'wowtcg-the-high-cost-of-dragonslaying',
-        'wowtcg-imposing-presence',
-        'wowtcg-lead-from-the-front',
-        'wowtcg-lesser-of-two-evils',
-        'wowtcg-play-with-your-food',
-        'wowtcg-quicken-the-pace',
-        'wowtcg-reign-of-fire',
-        'wowtcg-sacrificial-meal',
-        'wowtcg-searing-flames',
-        'wowtcg-second-wind',
-        'wowtcg-seize-the-moment',
-        'wowtcg-smoke-and-ash',
-        'wowtcg-take-cover',
-        'wowtcg-wing-storm'
+        'wowtcg-assembled_masses',
+        'wowtcg-broodmothers_rage',
+        'wowtcg-the_cats_meow',
+        'wowtcg-the_chill_of_undeath',
+        'wowtcg-debacle',
+        'wowtcg-debilitating_nausea',
+        'wowtcg-fortituous_gift',
+        'wowtcg-frigid_hopelessness',
+        'wowtcg-a_grave_bargain',
+        'wowtcg-hastened_preparation',
+        'wowtcg-icecold_refreshment',
+        'wowtcg-inevitable_failure',
+        'wowtcg-premature_departure',
+        'wowtcg-punish_the_greedy',
+        'wowtcg-ruthless_precision',
+        'wowtcg-shadow_of_obliteration',
+        'wowtcg-shadowy_intrusion',
+        'wowtcg-tempt_your_fate',
+        'wowtcg-timely_respite',
+        'wowtcg-unholy_mending'
     ];
     angular.forEach(eventCards, function(cardClass) {
         //add 1 of each event
         $scope.eventDeck.add(regularCardFactory.create(cardClass));
     });
 
-    //add 20 whelps to the additional items
-    for(var i = 0; i < 20; i++) {
-        $scope.whelps.add({
-            displayClasses : { front : 'wowtcg-half-card wowtcg-onyxian-whelp', back : 'wowtcg-half-card wowtcg-back' }
-        });
-    }
+    var kEventCards = [
+        'wowtcg-kelthuzads_blast',
+        'wowtcg-kelthuzads_detonation',
+        'wowtcg-kelthuzads_fissure',
+        'wowtcg-kelthuzads_guardians',
+        'wowtcg-kelthuzads_volley'
+    ];
+    angular.forEach(kEventCards, function(cardClass) {
+        //add 1 of each event
+        $scope.kEventDeck.add(regularCardFactory.create(cardClass));
+    });
+
+
 
     //add each of onyxias forms 
     $scope.onyxiaStages.add({
