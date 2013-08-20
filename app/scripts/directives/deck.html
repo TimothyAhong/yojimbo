@@ -1,0 +1,8 @@
+<div class="yoj-deck">
+	<div class="yoj-deck-number-of-items" ng-show="yojDeckSettings.displayNumberOfItems">{{yojItemCollection.items.length}} total</div>
+	<button ng-show="yojDeckSettings.canShuffle" ng-click="shuffle()" class="btn btn-inverse" >Shuffle</button>
+	<div yoj-pile-item 
+		yoj-item="firstItem"
+		yoj-item-settings="yojItemSettings"
+		yoj-display-class="{{yojItemDisplayClass}}">
+</div>

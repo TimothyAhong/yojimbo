@@ -1,0 +1,35 @@
+<span 
+	class="yoj-pile-item {{yojItem.displayClasses[yojDisplayClass]}} {{additionalClasses()}}" 
+	style="left:{{yojItem.x}}px; top:{{yojItem.y}}px; z-index:{{yojItem.z}}; background-color:red; position: absolute;"
+	ng-mouseenter="showButtons = true" ng-mouseleave="showButtons = false"
+	>
+
+	<div ng-repeat="input in yojItemSettings.inputs" ng-show="input.displayValueOnItem" class="{{input.displayValueOnItemClass}}">{{yojItem[input.modelProperty]}}</div>
+
+	<div ng-show="showButtons" class="btn-group btn-group-vertical yoj-pile-item-btn-group">
+		<button ng-repeat="displayClassButton in yojItemSettings.displayClassButtons" 
+		type="button" class="btn btn-inverse btn-small" 
+		ng-click="changeDisplayClass(displayClassButton.displayClass)">
+		{{displayClassButton.title}}
+		</button>
+
+		<!--TODO move all this to a directive-->
+		<input ng-repeat="input in yojItemSettings.inputs" ng-model="yojItem[input.modelProperty]" class="yoj-pile-item-input">
+
+		<button ng-show="yojItemSettings.displayMoveUpButton" type="button" class="btn btn-inverse btn-small" ng-click="moveUp()">Move Up</button>
+		<button ng-show="yojItemSettings.displayMoveDownButton" type="button" class="btn btn-inverse btn-small" ng-click="moveDown()">Move Down</button>
+
+		<button ng-show="yojItemSettings.rotatable" type="button" class="btn btn-inverse btn-small" ng-click="rotateRight()">Rotate Right</button>
+		<button ng-show="yojItemSettings.rotatable" type="button" class="btn btn-inverse btn-small" ng-click="rotateLeft()">Rotate Left</button>
+		
+		<button type="button" ng-show="yojItemSettings.displayMoveToCollectionButton" class="btn btn-inverse btn-small dropdown-toggle" data-toggle="dropdown">
+			Move To Collection
+			<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu" style="margin:0px;">
+			<li ng-repeat="collectionName in yojItemSettings.availableCollections">
+				<a ng-click="moveToCollection(collectionName)">{{collectionName}}</a>
+			</li>
+		</ul>
+	</div>
+</span>

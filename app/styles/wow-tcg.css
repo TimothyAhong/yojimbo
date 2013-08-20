@@ -1,0 +1,264 @@
+/*set the card sizes*/
+.wowtcg-card {
+        width: 220px;
+        height: 308px !important;
+        background-size: 220px 308px;
+        -moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+        -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+
+.wowtcg-half-card {
+        width: 110px;
+        height: 154px !important;
+        background-size: 110px 154px;
+}
+
+.wowtcg-deck {
+        width: 220px;
+        height: 390px;
+        padding: 10px;
+        text-align: left;
+        display: inline-block;
+        border: 2px solid;
+        background-color: rgb(103, 81, 124);
+        margin: 5px;
+}
+
+.wowtcg-deck-title {
+        color: white;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+}
+.yoj-deck-number-of-items {
+        color: white;
+        text-align: center;
+        margin: 5px;
+}
+
+
+.yoj-deck > button {
+        width: 100%;
+}
+
+html {
+        height: 100%;
+        background-color: rgb(40,40,40);
+}
+
+body {
+        background: none;
+}
+
+
+/*card images*/
+
+/*tokens and large cards*/
+.wowtcg-back {
+        background-image: url('/images/wowtcg/wowtcg-back.jpg');
+}
+
+.wowtcg-onyxia-stage-1-front {
+        background-image: url('/images/wowtcg/wowtcg-onyxia-stage-1-front.jpg');
+}
+.wowtcg-onyxia-stage-1-back {
+        background-image: url('/images/wowtcg/wowtcg-onyxia-stage-1-back.jpg');
+}
+.wowtcg-onyxia-stage-2-front {
+        background-image: url('/images/wowtcg/wowtcg-onyxia-stage-2-front.jpg');
+}
+.wowtcg-onyxia-stage-2-back {
+        background-image: url('/images/wowtcg/wowtcg-onyxia-stage-2-back.jpg');
+}
+.wowtcg-onyxia-stage-3-front {
+        background-image: url('/images/wowtcg/wowtcg-onyxia-stage-3-front.jpg');
+}
+.wowtcg-onyxia-stage-3-back {
+        background-image: url('/images/wowtcg/wowtcg-onyxia-stage-3-back.jpg');
+}
+.wowtcg-onyxian-whelp {
+        background-image: url('/images/wowtcg/wowtcg-onyxian-whelp.jpg');
+}
+
+/* events and abilities */
+.wowtcg-another-lesson {
+        background-image: url('/images/wowtcg/another_lesson.jpg');
+}
+.wowtcg-bellowing-roar {
+        background-image: url('/images/wowtcg/bellowing_roar.jpg');
+}
+.wowtcg-brood-of-onyxia {
+        background-image: url('/images/wowtcg/brood_of_onyxia.jpg');
+}
+.wowtcg-burninate {
+        background-image: url('/images/wowtcg/burninate.jpg');
+}
+.wowtcg-crush {
+        background-image: url('/images/wowtcg/crush.jpg');
+}
+.wowtcg-deep-breath {
+        background-image: url('/images/wowtcg/deep_breath.jpg');
+}
+.wowtcg-devour {
+        background-image: url('/images/wowtcg/devour.jpg');
+}
+.wowtcg-draconic-might {
+        background-image: url('/images/wowtcg/draconic_might.jpg');
+}
+.wowtcg-draconic-rage {
+        background-image: url('/images/wowtcg/draconic_rage.jpg');
+}
+.wowtcg-dragon-hide {
+        background-image: url('/images/wowtcg/dragon_hide.jpg');
+}
+.wowtcg-engulfing-flames {
+        background-image: url('/images/wowtcg/engulfing_flames.jpg');
+}
+.wowtcg-flame-breath {
+        background-image: url('/images/wowtcg/flame_breath.jpg');
+}
+.wowtcg-foolish-mortals {
+        background-image: url('/images/wowtcg/foolish_mortals.jpg');
+}
+.wowtcg-head-slam {
+        background-image: url('/images/wowtcg/head_slam.jpg');
+}
+.wowtcg-home-lair-advantage {
+        background-image: url('/images/wowtcg/home_lair_advantage.jpg');
+}
+.wowtcg-how-fortuitous {
+        background-image: url('/images/wowtcg/how_fortuitous.jpg');
+}
+.wowtcg-knock-away {
+        background-image: url('/images/wowtcg/knock_away.jpg');
+}
+.wowtcg-lava-cracks {
+        background-image: url('/images/wowtcg/lava_cracks.jpg');
+}
+.wowtcg-learn-your-place-mortal {
+        background-image: url('/images/wowtcg/learn_your_place_mortal.jpg');
+}
+.wowtcg-meaningless-exertion {
+        background-image: url('/images/wowtcg/meaningless_exertion.jpg');
+}
+.wowtcg-roasted-flesh {
+        background-image: url('/images/wowtcg/roasted_flesh.jpg');
+}
+.wowtcg-shattering-scales {
+        background-image: url('/images/wowtcg/shattering_scales.jpg');
+}
+.wowtcg-tail-swipe {
+        background-image: url('/images/wowtcg/tail_swipe.jpg');
+}
+.wowtcg-thrash {
+        background-image: url('/images/wowtcg/thrash.jpg');
+}
+.wowtcg-tooth-and-claw {
+        background-image: url('/images/wowtcg/tooth_and_claw.jpg');
+}
+.wowtcg-tossed-into-the-hatchery {
+        background-image: url('/images/wowtcg/tossed_into_the_hatchery.jpg');
+}
+.wowtcg-trample {
+        background-image: url('/images/wowtcg/trample.jpg');
+}
+.wowtcg-the-whelp-pits {
+        background-image: url('/images/wowtcg/the_whelp_pits.jpg');
+}
+.wowtcg-wing-buffet {
+        background-image: url('/images/wowtcg/wing_buffet.jpg');
+}
+.wowtcg-wrath-of-onyxia {
+        background-image: url('/images/wowtcg/wrath_of_onyxia.jpg');
+}
+.wowtcg-battle-plan {
+        background-image: url('/images/wowtcg/battle_plan.jpg');
+}
+.wowtcg-blunder-into-the-eggs {
+        background-image: url('/images/wowtcg/blunder_into_the_eggs.jpg');
+}
+.wowtcg-break-in-the-action {
+        background-image: url('/images/wowtcg/break_in_the_action.jpg');
+}
+.wowtcg-broken-ranks {
+        background-image: url('/images/wowtcg/broken_ranks.jpg');
+}
+.wowtcg-burn-to-a-crisp {
+        background-image: url('/images/wowtcg/burn_to_a_crisp.jpg');
+}
+.wowtcg-charred-bones {
+        background-image: url('/images/wowtcg/charred_bones.jpg');
+}
+.wowtcg-chink-in-her-armor {
+        background-image: url('/images/wowtcg/chink_in_her_armor.jpg');
+}
+.wowtcg-claw-claw-bite {
+        background-image: url('/images/wowtcg/claw_claw_bite.jpg');
+}
+.wowtcg-down-the-gullet {
+        background-image: url('/images/wowtcg/down_the_gullet.jpg');
+}
+.wowtcg-dragonslayers {
+        background-image: url('/images/wowtcg/dragonslayers.jpg');
+}
+.wowtcg-feeding-time {
+        background-image: url('/images/wowtcg/feeding_time.jpg');
+}
+.wowtcg-fickle-fate {
+        background-image: url('/images/wowtcg/fickle_fate.jpg');
+}
+.wowtcg-fuel-for-the-fire {
+        background-image: url('/images/wowtcg/fuel_for_the_fire.jpg');
+}
+.wowtcg-growing-rage {
+        background-image: url('/images/wowtcg/growing_rage.jpg');
+}
+.wowtcg-he-who-hesitates {
+        background-image: url('/images/wowtcg/he_who_hesitates.jpg');
+}
+.wowtcg-hidden-reserves {
+        background-image: url('/images/wowtcg/hidden_reserves.jpg');
+}
+.wowtcg-the-high-cost-of-dragonslaying {
+        background-image: url('/images/wowtcg/the_high_cost_of_dragonslaying.jpg');
+}
+.wowtcg-imposing-presence {
+        background-image: url('/images/wowtcg/imposing_presence.jpg');
+}
+.wowtcg-lead-from-the-front {
+        background-image: url('/images/wowtcg/lead_from_the_front.jpg');
+}
+.wowtcg-lesser-of-two-evils {
+        background-image: url('/images/wowtcg/lesser_of_two_evils.jpg');
+}
+.wowtcg-play-with-your-food {
+        background-image: url('/images/wowtcg/play_with_your_food.jpg');
+}
+.wowtcg-quicken-the-pace {
+        background-image: url('/images/wowtcg/quicken_the_pace.jpg');
+}
+.wowtcg-reign-of-fire {
+        background-image: url('/images/wowtcg/reign_of_fire.jpg');
+}
+.wowtcg-sacrificial-meal {
+        background-image: url('/images/wowtcg/sacrificial_meal.jpg');
+}
+.wowtcg-searing-flames {
+        background-image: url('/images/wowtcg/searing_flames.jpg');
+}
+.wowtcg-second-wind {
+        background-image: url('/images/wowtcg/second_wind.jpg');
+}
+.wowtcg-seize-the-moment {
+        background-image: url('/images/wowtcg/seize_the_moment.jpg');
+}
+.wowtcg-smoke-and-ash {
+        background-image: url('/images/wowtcg/smoke_and_ash.jpg');
+}
+.wowtcg-take-cover {
+        background-image: url('/images/wowtcg/take_cover.jpg');
+}
+.wowtcg-wing-storm {
+        background-image: url('/images/wowtcg/wing_storm.jpg');
+}
