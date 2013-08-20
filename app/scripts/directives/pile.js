@@ -12,11 +12,11 @@ angular.module('yojimboApp').directive('yojPile', function(collectionTransferSer
             $scope.$watch('yojItemCollection', function(newValue) {
                 if (newValue) {
                     $scope.yojItemCollection = newValue;
+                    $scope.items = newValue.items;
                 }
             }, true);
         },
         controller: function($scope) {
-        $scope.items = $scope.yojItemCollection.items;
         },
         templateUrl : 'scripts/directives/pile.html',
         replace : false

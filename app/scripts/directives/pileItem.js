@@ -55,10 +55,20 @@ angular.module('yojimboApp').directive('yojPileItem', function($document, collec
             
             if($scope.yojItemSettings.draggable) {
                 //TODO move to service
-                var x=0, y=0, startX=0, startY=0;
+                var x=0, y=0, startX=0, startY=0, startZ=0;
+                if(typeof $scope.yojItem.x != 'undefined') {
+                    startX = $scope.yojItem.x;
+                }
+                if(typeof $scope.yojItem.y != 'undefined') {
+                    startY = $scope.yojItem.y;
+                }
+                if(typeof $scope.yojItem.z != 'undefined') {
+                    startZ = $scope.yojItem.z;
+                }
+
                 $scope.yojItem.x = startX;
                 $scope.yojItem.y = startY;
-                $scope.yojItem.z = 0;
+                $scope.yojItem.z = startZ;
                 
                 element.on('mousedown', function(event) {
                     // Prevent default dragging of selected content

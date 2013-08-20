@@ -35,12 +35,16 @@ angular.module('yojimboApp').factory('itemCollectionFactory', function (collecti
 				},
 				remove : function(item) {
 					var newArray = [];
+					var index = this.items.indexOf(item)
+  					this.items.splice(index,1);
+  					/*
 					angular.forEach(this.items, function(listItem, i) {
 						if(listItem.collectionUniqueId != item.collectionUniqueId) {
 							newArray.push(listItem);
 						}
 					});
 					angular.copy(newArray, this.items);
+					*/
 					this.subscribedCallback('remove', item, this.items);
 				},
 				setName : function(name) {

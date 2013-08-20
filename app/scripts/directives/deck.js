@@ -13,13 +13,11 @@ angular.module('yojimboApp').directive('yojDeck', function(collectionTransferSer
             $scope.$watch('yojItemCollection', function(newValue) {
                 if (newValue) {
                     $scope.yojItemCollection = newValue;
+                    $scope.firstItem = $scope.yojItemCollection.getFirst();
                 }
             }, true);
         },
         controller: function($scope) {
-            //$scope.firstItem = function(){return $scope.yojItemCollection.getFirst();}
-            $scope.firstItem = $scope.yojItemCollection.items[0];
-            
             $scope.collectionName = $scope.yojItemCollection.getName();
             $scope.drawToCollection = function(targetName) {
                 collectionTransferService.transferItemToCollection($scope.firstItem, targetName);
