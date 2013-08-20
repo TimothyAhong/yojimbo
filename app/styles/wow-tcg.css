@@ -54,211 +54,351 @@ body {
 
 /*card images*/
 
-/*tokens and large cards*/
 .wowtcg-back {
         background-image: url('/images/wowtcg/wowtcg-back.jpg');
 }
 
+/*ONYXIA tokens and large cards*/
+
+
 .wowtcg-onyxia-stage-1-front {
-        background-image: url('/images/wowtcg/wowtcg-onyxia-stage-1-front.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/wowtcg-onyxia-stage-1-front.jpg');
 }
 .wowtcg-onyxia-stage-1-back {
-        background-image: url('/images/wowtcg/wowtcg-onyxia-stage-1-back.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/wowtcg-onyxia-stage-1-back.jpg');
 }
 .wowtcg-onyxia-stage-2-front {
-        background-image: url('/images/wowtcg/wowtcg-onyxia-stage-2-front.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/wowtcg-onyxia-stage-2-front.jpg');
 }
 .wowtcg-onyxia-stage-2-back {
-        background-image: url('/images/wowtcg/wowtcg-onyxia-stage-2-back.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/wowtcg-onyxia-stage-2-back.jpg');
 }
 .wowtcg-onyxia-stage-3-front {
-        background-image: url('/images/wowtcg/wowtcg-onyxia-stage-3-front.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/wowtcg-onyxia-stage-3-front.jpg');
 }
 .wowtcg-onyxia-stage-3-back {
-        background-image: url('/images/wowtcg/wowtcg-onyxia-stage-3-back.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/wowtcg-onyxia-stage-3-back.jpg');
 }
 .wowtcg-onyxian-whelp {
-        background-image: url('/images/wowtcg/wowtcg-onyxian-whelp.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/wowtcg-onyxian-whelp.jpg');
 }
 
-/* events and abilities */
+/*ONYXIA events and abilities */
 .wowtcg-another-lesson {
-        background-image: url('/images/wowtcg/another_lesson.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/another_lesson.jpg');
 }
 .wowtcg-bellowing-roar {
-        background-image: url('/images/wowtcg/bellowing_roar.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/bellowing_roar.jpg');
 }
 .wowtcg-brood-of-onyxia {
-        background-image: url('/images/wowtcg/brood_of_onyxia.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/brood_of_onyxia.jpg');
 }
 .wowtcg-burninate {
-        background-image: url('/images/wowtcg/burninate.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/burninate.jpg');
 }
 .wowtcg-crush {
-        background-image: url('/images/wowtcg/crush.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/crush.jpg');
 }
 .wowtcg-deep-breath {
-        background-image: url('/images/wowtcg/deep_breath.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/deep_breath.jpg');
 }
 .wowtcg-devour {
-        background-image: url('/images/wowtcg/devour.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/devour.jpg');
 }
 .wowtcg-draconic-might {
-        background-image: url('/images/wowtcg/draconic_might.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/draconic_might.jpg');
 }
 .wowtcg-draconic-rage {
-        background-image: url('/images/wowtcg/draconic_rage.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/draconic_rage.jpg');
 }
 .wowtcg-dragon-hide {
-        background-image: url('/images/wowtcg/dragon_hide.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/dragon_hide.jpg');
 }
 .wowtcg-engulfing-flames {
-        background-image: url('/images/wowtcg/engulfing_flames.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/engulfing_flames.jpg');
 }
 .wowtcg-flame-breath {
-        background-image: url('/images/wowtcg/flame_breath.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/flame_breath.jpg');
 }
 .wowtcg-foolish-mortals {
-        background-image: url('/images/wowtcg/foolish_mortals.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/foolish_mortals.jpg');
 }
 .wowtcg-head-slam {
-        background-image: url('/images/wowtcg/head_slam.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/head_slam.jpg');
 }
 .wowtcg-home-lair-advantage {
-        background-image: url('/images/wowtcg/home_lair_advantage.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/home_lair_advantage.jpg');
 }
 .wowtcg-how-fortuitous {
-        background-image: url('/images/wowtcg/how_fortuitous.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/how_fortuitous.jpg');
 }
 .wowtcg-knock-away {
-        background-image: url('/images/wowtcg/knock_away.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/knock_away.jpg');
 }
 .wowtcg-lava-cracks {
-        background-image: url('/images/wowtcg/lava_cracks.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/lava_cracks.jpg');
 }
 .wowtcg-learn-your-place-mortal {
-        background-image: url('/images/wowtcg/learn_your_place_mortal.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/learn_your_place_mortal.jpg');
 }
 .wowtcg-meaningless-exertion {
-        background-image: url('/images/wowtcg/meaningless_exertion.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/meaningless_exertion.jpg');
 }
 .wowtcg-roasted-flesh {
-        background-image: url('/images/wowtcg/roasted_flesh.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/roasted_flesh.jpg');
 }
 .wowtcg-shattering-scales {
-        background-image: url('/images/wowtcg/shattering_scales.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/shattering_scales.jpg');
 }
 .wowtcg-tail-swipe {
-        background-image: url('/images/wowtcg/tail_swipe.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/tail_swipe.jpg');
 }
 .wowtcg-thrash {
-        background-image: url('/images/wowtcg/thrash.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/thrash.jpg');
 }
 .wowtcg-tooth-and-claw {
-        background-image: url('/images/wowtcg/tooth_and_claw.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/tooth_and_claw.jpg');
 }
 .wowtcg-tossed-into-the-hatchery {
-        background-image: url('/images/wowtcg/tossed_into_the_hatchery.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/tossed_into_the_hatchery.jpg');
 }
 .wowtcg-trample {
-        background-image: url('/images/wowtcg/trample.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/trample.jpg');
 }
 .wowtcg-the-whelp-pits {
-        background-image: url('/images/wowtcg/the_whelp_pits.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/the_whelp_pits.jpg');
 }
 .wowtcg-wing-buffet {
-        background-image: url('/images/wowtcg/wing_buffet.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/wing_buffet.jpg');
 }
 .wowtcg-wrath-of-onyxia {
-        background-image: url('/images/wowtcg/wrath_of_onyxia.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/wrath_of_onyxia.jpg');
 }
 .wowtcg-battle-plan {
-        background-image: url('/images/wowtcg/battle_plan.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/battle_plan.jpg');
 }
 .wowtcg-blunder-into-the-eggs {
-        background-image: url('/images/wowtcg/blunder_into_the_eggs.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/blunder_into_the_eggs.jpg');
 }
 .wowtcg-break-in-the-action {
-        background-image: url('/images/wowtcg/break_in_the_action.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/break_in_the_action.jpg');
 }
 .wowtcg-broken-ranks {
-        background-image: url('/images/wowtcg/broken_ranks.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/broken_ranks.jpg');
 }
 .wowtcg-burn-to-a-crisp {
-        background-image: url('/images/wowtcg/burn_to_a_crisp.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/burn_to_a_crisp.jpg');
 }
 .wowtcg-charred-bones {
-        background-image: url('/images/wowtcg/charred_bones.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/charred_bones.jpg');
 }
 .wowtcg-chink-in-her-armor {
-        background-image: url('/images/wowtcg/chink_in_her_armor.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/chink_in_her_armor.jpg');
 }
 .wowtcg-claw-claw-bite {
-        background-image: url('/images/wowtcg/claw_claw_bite.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/claw_claw_bite.jpg');
 }
 .wowtcg-down-the-gullet {
-        background-image: url('/images/wowtcg/down_the_gullet.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/down_the_gullet.jpg');
 }
 .wowtcg-dragonslayers {
-        background-image: url('/images/wowtcg/dragonslayers.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/dragonslayers.jpg');
 }
 .wowtcg-feeding-time {
-        background-image: url('/images/wowtcg/feeding_time.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/feeding_time.jpg');
 }
 .wowtcg-fickle-fate {
-        background-image: url('/images/wowtcg/fickle_fate.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/fickle_fate.jpg');
 }
 .wowtcg-fuel-for-the-fire {
-        background-image: url('/images/wowtcg/fuel_for_the_fire.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/fuel_for_the_fire.jpg');
 }
 .wowtcg-growing-rage {
-        background-image: url('/images/wowtcg/growing_rage.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/growing_rage.jpg');
 }
 .wowtcg-he-who-hesitates {
-        background-image: url('/images/wowtcg/he_who_hesitates.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/he_who_hesitates.jpg');
 }
 .wowtcg-hidden-reserves {
-        background-image: url('/images/wowtcg/hidden_reserves.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/hidden_reserves.jpg');
 }
 .wowtcg-the-high-cost-of-dragonslaying {
-        background-image: url('/images/wowtcg/the_high_cost_of_dragonslaying.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/the_high_cost_of_dragonslaying.jpg');
 }
 .wowtcg-imposing-presence {
-        background-image: url('/images/wowtcg/imposing_presence.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/imposing_presence.jpg');
 }
 .wowtcg-lead-from-the-front {
-        background-image: url('/images/wowtcg/lead_from_the_front.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/lead_from_the_front.jpg');
 }
 .wowtcg-lesser-of-two-evils {
-        background-image: url('/images/wowtcg/lesser_of_two_evils.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/lesser_of_two_evils.jpg');
 }
 .wowtcg-play-with-your-food {
-        background-image: url('/images/wowtcg/play_with_your_food.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/play_with_your_food.jpg');
 }
 .wowtcg-quicken-the-pace {
-        background-image: url('/images/wowtcg/quicken_the_pace.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/quicken_the_pace.jpg');
 }
 .wowtcg-reign-of-fire {
-        background-image: url('/images/wowtcg/reign_of_fire.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/reign_of_fire.jpg');
 }
 .wowtcg-sacrificial-meal {
-        background-image: url('/images/wowtcg/sacrificial_meal.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/sacrificial_meal.jpg');
 }
 .wowtcg-searing-flames {
-        background-image: url('/images/wowtcg/searing_flames.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/searing_flames.jpg');
 }
 .wowtcg-second-wind {
-        background-image: url('/images/wowtcg/second_wind.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/second_wind.jpg');
 }
 .wowtcg-seize-the-moment {
-        background-image: url('/images/wowtcg/seize_the_moment.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/seize_the_moment.jpg');
 }
 .wowtcg-smoke-and-ash {
-        background-image: url('/images/wowtcg/smoke_and_ash.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/smoke_and_ash.jpg');
 }
 .wowtcg-take-cover {
-        background-image: url('/images/wowtcg/take_cover.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/take_cover.jpg');
 }
 .wowtcg-wing-storm {
-        background-image: url('/images/wowtcg/wing_storm.jpg');
+        background-image: url('/images/wowtcg/raids/onyxia/wing_storm.jpg');
+}
+
+/*MAGTHERIDON tokens and large cards*/
+.wowtcg-shadow-channeler {
+        background-image: url(/images/wowtcg/raids/magtheridon/shadow_channeler.jpg);
+}
+.wowtcg-shadow-channeler2 {
+        background-image: url(/images/wowtcg/raids/magtheridon/shadow_channeler2.jpg);
+}
+.wowtcg-dark-mending-channeler {
+        background-image: url(/images/wowtcg/raids/magtheridon/dark_mending_channeler.jpg);
+}
+.wowtcg-summoner-channeler {
+        background-image: url(/images/wowtcg/raids/magtheridon/summoner_channeler.jpg);
+}
+.wowtcg-summoner-channeler2 {
+        background-image: url(/images/wowtcg/raids/magtheridon/summoner_channeler2.jpg);
+}
+.wowtcg-manticron-cube {
+        background-image: url(/images/wowtcg/raids/magtheridon/manticron_cube.jpg);
+}
+.wowtcg-magtheridons-lair-front {
+        background-image: url(/images/wowtcg/raids/magtheridon/magtheridons_lair_front.jpg);
+}
+.wowtcg-magtheridons-lair-back {
+        background-image: url(/images/wowtcg/raids/magtheridon/magtheridons_lair_back.jpg);
+}
+.wowtcg-magtheridon-chained-front {
+        background-image: url(/images/wowtcg/raids/magtheridon/magtheridon_chained_front.jpg);        
+}
+.wowtcg-magtheridon-chained-back {
+        background-image: url(/images/wowtcg/raids/magtheridon/magtheridon_chained_back.jpg);        
+}
+.wowtcg-magtheridon-unchained-front {
+        background-image: url(/images/wowtcg/raids/magtheridon/magtheridon_unchained_front.jpg);        
+}
+.wowtcg-magtheridon-unchained-back {
+        background-image: url(/images/wowtcg/raids/magtheridon/magtheridon_unchained_back.jpg);
+}
+
+
+/*MAGTHERIDON deck cards*/
+
+.wowtcg-abyssal-reinforcements {
+        background-image: url(/images/wowtcg/raids/magtheridon/abyssal_reinforcements.jpg);
+}
+.wowtcg-bathe-in-blood {
+        background-image: url(/images/wowtcg/raids/magtheridon/bathe_in_blood.jpg);
+}
+.wowtcg-blast-nova {
+        background-image: url(/images/wowtcg/raids/magtheridon/blast_nova.jpg);
+}
+.wowtcg-blindside {
+        background-image: url(/images/wowtcg/raids/magtheridon/blindside.jpg);
+}
+.wowtcg-blood-siphon {
+        background-image: url(/images/wowtcg/raids/magtheridon/blood_siphon.jpg);
+}
+.wowtcg-broken-hopes {
+        background-image: url(/images/wowtcg/raids/magtheridon/broken_hopes.jpg);
+}
+.wowtcg-brush-aside {
+        background-image: url(/images/wowtcg/raids/magtheridon/brush_aside.jpg);
+}
+.wowtcg-cleave-apart {
+        background-image: url(/images/wowtcg/raids/magtheridon/cleave_apart.jpg);
+}
+.wowtcg-deadly-sweep {
+        background-image: url(/images/wowtcg/raids/magtheridon/deadly_sweep.jpg);
+}
+.wowtcg-demonic-fury {
+        background-image: url(/images/wowtcg/raids/magtheridon/demonic_fury.jpg);
+}
+.wowtcg-fel-ruination {
+        background-image: url(/images/wowtcg/raids/magtheridon/fel_ruination.jpg);
+}
+.wowtcg-fiery-pits {
+        background-image: url(/images/wowtcg/raids/magtheridon/fiery_pits.jpg);
+}
+.wowtcg-magtheridons-rage {
+        background-image: url(/images/wowtcg/raids/magtheridon/magtheridons_rage.jpg);
+}
+.wowtcg-mind-exhaustion {
+        background-image: url(/images/wowtcg/raids/magtheridon/mind_exhaustion.jpg);
+}
+.wowtcg-one-fell-swoop {
+        background-image: url(/images/wowtcg/raids/magtheridon/one_fell_swoop.jpg);
+}
+.wowtcg-path-of-ruin {
+        background-image: url(/images/wowtcg/raids/magtheridon/path_of_ruin.jpg);
+}
+.wowtcg-power-returns {
+        background-image: url(/images/wowtcg/raids/magtheridon/power_returns.jpg);
+}
+.wowtcg-rampant-destruction {
+        background-image: url(/images/wowtcg/raids/magtheridon/rampant_destruction.jpg);
+}
+.wowtcg-redouble-effort {
+        background-image: url(/images/wowtcg/raids/magtheridon/redouble_effort.jpg);
+}
+.wowtcg-sadistic-choice {
+        background-image: url(/images/wowtcg/raids/magtheridon/sadistic_choice.jpg);
+}
+.wowtcg-sow-destruction {
+        background-image: url(/images/wowtcg/raids/magtheridon/sow_destruction.jpg);
+}
+.wowtcg-spirit-wrench {
+        background-image: url(/images/wowtcg/raids/magtheridon/spirit_wrench.jpg);
+}
+.wowtcg-squish-together {
+        background-image: url(/images/wowtcg/raids/magtheridon/squish_together.jpg);
+}
+.wowtcg-swath-of-destruction {
+        background-image: url(/images/wowtcg/raids/magtheridon/swath_of_destruction.jpg);
+}
+.wowtcg-terrifying-presence {
+        background-image: url(/images/wowtcg/raids/magtheridon/terrifying_presence.jpg);
+}
+.wowtcg-toss-about {
+        background-image: url(/images/wowtcg/raids/magtheridon/toss_about.jpg);
+}
+.wowtcg-trample-underfoot {
+        background-image: url(/images/wowtcg/raids/magtheridon/trample_underfoot.jpg);
+}
+.wowtcg-violent-reflex {
+        background-image: url(/images/wowtcg/raids/magtheridon/violent_reflex.jpg);
+}
+.wowtcg-whiplash {
+        background-image: url(/images/wowtcg/raids/magtheridon/whiplash.jpg);
+}
+.wowtcg-will-of-the-legion {
+        background-image: url(/images/wowtcg/raids/magtheridon/will_of_the_legion.jpg);
+}
+.wowtcg-pit-lords-armor {
+        background-image: url(/images/wowtcg/raids/magtheridon/pit_lords_armor.jpg);
+}
+.wowtcg-pit-lords-glaive {
+        background-image: url(/images/wowtcg/raids/magtheridon/pit_lords_glaive.jpg);
 }
