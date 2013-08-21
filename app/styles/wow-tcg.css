@@ -402,3 +402,67 @@ body {
 .wowtcg-pit-lords-glaive {
         background-image: url(/images/wowtcg/raids/magtheridon/pit_lords_glaive.jpg);
 }
+
+
+/*druid deck*/
+
+.wowtcg-arisella-front {
+        background-image: url(/images/wowtcg/decks/arisella_front.jpg)
+}
+
+.wowtcg-arisella-back {
+        background-image: url(/images/wowtcg/decks/arisella_back.jpg)        
+}
+
+.wowtcg-keeper-sharus {
+        background-image: url(/images/wowtcg/decks/keeper_sharus.jpg);
+}
+.wowtcg-keeper-balos {
+        background-image: url(/images/wowtcg/decks/keeper_balos.jpg);
+}
+.wowtcg-keeper-alinar {
+        background-image: url(/images/wowtcg/decks/keeper_alinar.jpg);
+}
+.wowtcg-remulos-son-of-cenarius {
+        background-image: url(/images/wowtcg/decks/remulos_son_of_cenarius.jpg);
+}
+.wowtcg-stonebranch-ancient-of-war {
+        background-image: url(/images/wowtcg/decks/stonebranch_ancient_of_war.jpg);
+}
+.wowtcg-neferset-runecaster {
+        background-image: url(/images/wowtcg/decks/neferset_runecaster.jpg);
+}
+.wowtcg-shadow-of-aran {
+        background-image: url(/images/wowtcg/decks/shadow_of_aran.jpg);
+}
+.wowtcg-doom-commander-zaakuul {
+        background-image: url(/images/wowtcg/decks/doom_commander_zaakuul.jpg);
+}
+.wowtcg-muln-earthfury {
+        background-image: url(/images/wowtcg/decks/muln_earthfury.jpg);
+}
+.wowtcg-commander-ulthok {
+        background-image: url(/images/wowtcg/decks/commander_ulthok.jpg);
+}
+.wowtcg-azgalor-the-pit-lord {
+        background-image: url(/images/wowtcg/decks/azgalor_the_pit_lord.jpg);
+}
+.wowtcg-mark-of-the-ancients {
+        background-image: url(/images/wowtcg/decks/mark_of_the_ancients.jpg);
+}
+.wowtcg-wild-wrath {
+        background-image: url(/images/wowtcg/decks/wild_wrath.jpg);
+}
+.wowtcg-bottled-life {
+        background-image: url(/images/wowtcg/decks/bottled_life.jpg);
+}
+.wowtcg-shadowfang-keep {
+        background-image: url(/images/wowtcg/decks/shadowfang_keep.jpg);
+}
+.wowtcg-the-essence-of-enmity {
+        background-image: url(/images/wowtcg/decks/the_essence_of_enmity.jpg);
+}
+.wowtcg-seeds-of-their-demise {
+        background-image: url(/images/wowtcg/decks/seeds_of_their_demise.jpg);
+}
+
