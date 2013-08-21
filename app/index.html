@@ -28,7 +28,7 @@
 
     <!-- Add your site or application content here -->
 
-    <div class="container yoj-full-height yoj-full-width" ng-include src="'views/yojimboTestMag.html'">
+    <div class="container yoj-full-height yoj-full-width" ng-include src="'views/yojimboTestOny.html'">
         
     </div>
 
@@ -79,8 +79,12 @@
         <script src="scripts/services/safeApply.js"></script>
         <!-- endbuild -->
 
-        <script src="scripts/controllers/yojimboTestOny.js"></script>
+        <!-- yojimbo usage -->
+        <script>
+        angular.module('yojimboTest', ['yojimboApp']);
+        </script>
         <script src="scripts/controllers/yojimboTestMag.js"></script>
+        <script src="scripts/controllers/yojimboTestOny.js"></script>
 
 </body>
 </html>

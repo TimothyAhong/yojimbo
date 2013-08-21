@@ -1,7 +1,6 @@
 'use strict';
-angular.module('yojimboTest', ['yojimboApp']);
 
-angular.module('yojimboTest').controller('yojimboTestCtrl', function ($scope, itemCollectionFactory) {
+angular.module('yojimboTest').controller('yojimboTestOnyCtrl', function ($scope, itemCollectionFactory) {
     
 
     //TODO for some reason the extras collection is not removing items correctly... will have to investigate

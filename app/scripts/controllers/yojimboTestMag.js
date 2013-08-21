@@ -1,7 +1,7 @@
 'use strict';
 angular.module('yojimboTest', ['yojimboApp']);
 
-angular.module('yojimboTest').controller('yojimboTestCtrl', function ($scope, itemCollectionFactory) {
+angular.module('yojimboTest').controller('yojimboTestMagCtrl', function ($scope, itemCollectionFactory) {
     
     $scope.itemSettings = {
         displayClassButtons: [
